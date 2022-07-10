@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>My Portfolio</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#website">WEBSITE</a></li>
+                <li><a href="#projects">ART</a></li>
+                <li><a href="#repo">REPO</a></li>
+            </ul>
+        </nav>
+        <section id="welcome-section">
+            <div id="hello">
+                <h3>Hello, I am</h3>
+                <h1>Devrim Akgün</h1>
+                <div class="links">
+                    <a target="_newblank" href="https://www.linkedin.com/in/devrimakgun/">
+                    <svg class="iconl" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"></path>
+                    </svg>
+                    </a>
+                    <a target="_newblank" href="https://github.com/devrimakgun">
+                    <svg class="iconl" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .3a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1-.7.1-.7.1-.7 1.2 0 1.9 1.2 1.9 1.2 1 1.8 2.8 1.3 3.5 1 0-.8.4-1.3.7-1.6-2.7-.3-5.5-1.3-5.5-6 0-1.2.5-2.3 1.3-3.1-.2-.4-.6-1.6 0-3.2 0 0 1-.3 3.4 1.2a11.5 11.5 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.6.2 2.8 0 3.2.9.8 1.3 1.9 1.3 3.2 0 4.6-2.8 5.6-5.5 5.9.5.4.9 1 .9 2.2v3.3c0 .3.1.7.8.6A12 12 0 0 0 12 .3"></path></svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </header>
+    <section id="about">
+        <h1>About Me</h1>
+        <p>I graduated from psychology department and i did some research on psychology. At the same time, i have always tried to follow technology closely throughout my life. I am interested in virtual reality closely and this is how i met cyberpsychology. Thanks to cyberpsychology, i realized that i had an interest in software. finally i was able to find my interest, and that was web design and development. Now i am coding and i enjoy that a lot !</p>
+        <button class="btn"><i class="fa fa-download"></i><a href="CV-E.pdf" download="CV">Download My CV</a></button>
+    </section>
+    <section id="website">
+        <h1>Websites</h1>    
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+        <!-- Full-width images with number and caption text -->
+            <div class="mySlides">
+                <img src="img/tes1.jpg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <img src="img/tes2.jpg" style="width:100%">
+            </div>
+        <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)"><span>&#10094;</span></a>
+            <a class="next" onclick="plusSlides(1)"><span>&#10095;</span></a>
+        </div>
+        <br>
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+        </div>
+        <h2 style="text-align: center; color:#fff">Tesla Landing Page</h2>
+        <p>Basic tesla landing website project.</p>
+        <div class="center">
+            <button class="tbtn"><a href="https://github.com/devrimakgun/tesla-landing-page" target="_blank">Source Code</a></button>
+        </div>
+        <div id="por">
+            <img width="65%"  src="img/por.jpg">
+        </div>
+        <h2 id="porh2" style="text-align: center; color:#fff">Portugal Info Page</h2>
+        <p>A website project that contains information about Portugal.</p>
+        <div class="center">
+            <button class="pbtn"><a href="https://github.com/devrimakgun/portugal-website" target="_blank">Source Code</a></button>
+        </div>
+        <div id="port">
+            <img width="65%"  src="img/port.jpg">
+        </div>
+        <h2 id="porh2" style="text-align: center; color:#fff">Portfolio Page</h2>
+        <p>A website that contains information about me.</p>
+        <div class="center">
+            <button class="pbtn"><a href="https://github.com/devrimakgun/portugal-website" target="_blank">Source Code</a></button>
+        </div>
+    </section>
+    <section id="projects" class="project-tile">
+        <h1>Art</h1>  
+        <div id="pia">
+            <img width="65%"  src="img/piano.jpg">
+        </div>
+        <h2 id="piah2" style="text-align: center; color:#fff">Piano</h2>
+        <p>Steinway & Sons piano project.</p>
+        <div class="center">
+            <button id="profile-link" class="pbtn"><a href="https://github.com/devrimakgun/piano" target="_blank">Source Code</a></button>
+        </div>
+    </section>
+    <section id="repo">
+        <h1>Repos</h1>
+        <div class="github">
+            <div class="gname">
+                <h1>
+                    <svg class="icon" focusable="false" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M12 .3a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1-.7.1-.7.1-.7 1.2 0 1.9 1.2 1.9 1.2 1 1.8 2.8 1.3 3.5 1 0-.8.4-1.3.7-1.6-2.7-.3-5.5-1.3-5.5-6 0-1.2.5-2.3 1.3-3.1-.2-.4-.6-1.6 0-3.2 0 0 1-.3 3.4 1.2a11.5 11.5 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.6.2 2.8 0 3.2.9.8 1.3 1.9 1.3 3.2 0 4.6-2.8 5.6-5.5 5.9.5.4.9 1 .9 2.2v3.3c0 .3.1.7.8.6A12 12 0 0 0 12 .3">
+                    </path>
+                    </svg>
+                    <a href="https://github.com/devrimakgun" target="_blank">devrimakgun</a>
+                </h1>
+                <h2>
+                    <svg class="icon" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><path d="M18 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM6 4h5v8l-2.5-1.5L6 12V4z"></path></svg> 5 repos
+                </h2>
+            </div>
+        </div>
+        <div class="allrepos">
+            <div class="repo left">
+                <div class="innerRepo">
+                <h1><a href="https://github.com/devrimakgun/tesla-landing-page" target="_blank">tesla-landing-page
+                </a></h1>
+                <p>basic responsive product landing page</p>
+                <p>HTML</p>
+                <h1><svg class="wht" height="24" viewBox="0 0 16 16" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"></path></svg>0 </h1>
+                </div>
+            </div>
+            <div class="repo">
+                <div class="innerRepo">
+                    <h1><a href="https://github.com/devrimakgun/portugal-website" target="_blank">portugal-website</a></h1>
+                    <p>a website about portugal</p>
+                    <p>HTML</p>
+                    <h1><svg class="wht" height="24" viewBox="0 0 16 16" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"></path></svg>0 </h1>
+                </div>
+            </div>
+            <div class="repo left">
+                <div class="innerRepo">
+                    <h1><a href="https://github.com/devrimakgun/portugal-website" target="_blank">portfolio</a></h1>
+                    <p>This is my portfolio website</p>
+                    <p>HTML</p>
+                    <h1><svg class="wht" height="24" viewBox="0 0 16 16" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"></path></svg>0 </h1>
+                </div>
+            </div>
+            <div class="repo">
+                <div class="innerRepo">
+                <h1><a href="https://github.com/devrimakgun/piano" target="_blank">piano
+                </a></h1>
+                <p>Steinway & Sons piano</p>
+                <p>HTML</p>
+                <h1><svg class="wht" height="24" viewBox="0 0 16 16" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"></path></svg>0 </h1>
+                </div>
+            </div>
+            <div class="repo left">
+                <div class="innerRepo">
+                <h1><a href="https://github.com/devrimakgun/patika" target="_blank">patika
+                </a></h1>
+                <p>this repo for my patika.dev projects</p>
+                <p>HTML</p>
+                <h1><svg class="wht" height="24" viewBox="0 0 16 16" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"></path></svg>0 </h1>
+                </div>
+            </div>
+        </div>    
+    </section>
+    <hr>
+    <footer>
+        <p style="color: #fff; text-align: center; font-size: small;">Copyright © 2022 Devrim Akgün. All Rights Reserved</p>
+    </footer>
+    <script src="slide.js"></script>
+</body>
+</html>
